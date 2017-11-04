@@ -1,6 +1,6 @@
 <?php
 /*
-Plugin Name: CodesWholesale for WooCommerce Set Sale Price
+Plugin Name: CodesWholesale Set Sale Price
 Description: Set price as sale price when updating product price in CodesWholesale for WooCommerce
 Version: 1.0.0
 Author: Olav Småriset
