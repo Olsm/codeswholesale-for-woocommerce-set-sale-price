@@ -2,7 +2,7 @@
 Set price as sale price when updating product price in CodesWholesale for WooCommerce
 
 ## Requirements
-Codeswholesale for Woocommerce plugin
+Codeswholesale for Woocommerce plugin 2.0
 
 ## Installation
 ### Add hooks to Codeswholesale for Woocommerce
