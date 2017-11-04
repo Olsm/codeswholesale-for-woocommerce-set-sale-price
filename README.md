@@ -1,4 +1,4 @@
-# Adaptive spread for CodesWholesale for WooCommerce
+# CodesWholesale Set Sale Price
 Set price as sale price when updating product price in CodesWholesale for WooCommerce
 
 ## Requirements
