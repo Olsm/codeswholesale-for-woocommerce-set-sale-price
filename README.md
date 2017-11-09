@@ -16,6 +16,16 @@ class WP_Update_Price_And_Stock implements UpdatePriceAndStockInterface {
             try {
                 foreach (...) {
                     ...
+                    $product = WC()->product_factory->get_product($post->ID, array());
+                    
+                    // Put the following code here
+                    // Start
+                    $productSpreadType = $product->get_meta(CodesWholesaleConst::PRODUCT_SPREAD_TYPE_PROP_NAME);
+                    if ($productSpreadType == 1) {
+                        continue;
+                    }
+                    // End
+                    
                     $product->set_stock($quantity);
                     
                     // Put the following code here:
