@@ -18,6 +18,7 @@ function updateProductPrice($doUpdatePrice, $postId, $newPrice){
     if ($newPrice > 0) {
         update_post_meta($postId, '_price', $newPrice);
         update_post_meta($postId, '_sale_price', $newPrice);
+        do_action("cw_updated_product_price", $postId, $newPrice);
     }
     return !$doUpdatePrice;
 }
